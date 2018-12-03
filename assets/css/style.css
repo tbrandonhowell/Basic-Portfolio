@@ -1,0 +1,97 @@
+/* ====== UNIVERSAL CLASSES ====== */ 
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    background-color:#ffffff;
+    padding: 0px;
+    margin: 0px;
+    color: #777777;
+    background-image: url("../images/cubes.png");
+}
+
+.ninesixty {
+    width: 960px;
+    margin: auto;
+    padding: 0;
+}
+
+/* ====== STICKY FOOTER WRAPPER / LAYOUT ====== */
+
+#footer-wrapper {
+    min-height: calc(100vh - 81px);
+    padding: 0;
+}
+#footer {
+    margin-top: 25px;
+    border-top:#4aaaa5 6px solid;
+    height: 50px;
+    background-color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    position: relative;
+}
+.copyright {
+    position: absolute;
+    bottom: 5px;
+    text-align:center;
+    width: 100%;
+}
+
+/* ====== FOOTER-WRAPPER > HEADER ====== */
+
+#header {
+    background-color: #ffffff;
+    padding: 0px;
+    margin-bottom: 25px;
+    width: 100%;
+    border-bottom: #CCCCCC 2px solid;
+}
+#sitename {
+    background-color: #4aaaa5;
+    display:inline-block;
+    font-size: 25px;
+    padding: 30px;
+    margin: 0px;
+    color: #ffffff;
+}
+#nav {
+    float: right;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 35px 0px 34px 0px;
+    color: #d5d5d5;
+    
+}
+#nav a {
+    color: #888888;
+    text-decoration: none;
+}
+
+/* ====== FOOTER-WRAPPER > PAGE CONTENT ====== */
+
+#content {
+    width: 908px;
+    margin: auto;
+    background-color:#ffffff;
+    padding: 25px;
+    overflow: auto;
+    border: #dddddd 1px solid;
+}
+#content img.headshot {
+    float: left;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+#content p {
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 150%;
+}
+h1 {
+    margin-top: 0px;
+    padding-bottom: 20px;
+    border-bottom:#CCCCCC 3px solid;
+    color: #4aaaa5;
+}
