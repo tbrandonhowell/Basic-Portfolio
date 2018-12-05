@@ -24,9 +24,9 @@ body {
 }
 #footer {
     margin-top: 25px;
-    border-top:#4aaaa5 6px solid;
+    border-top:#FE5A5F 6px solid;
     height: 50px;
-    background-color: #666666;
+    background-color: #55595C;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: #ffffff;
@@ -42,14 +42,14 @@ body {
 /* ====== FOOTER-WRAPPER > HEADER ====== */
 
 #header {
-    background-color: #ffffff;
+    background-color: #CED0CB;
     padding: 0px;
     margin-bottom: 25px;
     width: 100%;
-    border-bottom: #CCCCCC 2px solid;
+    border-bottom: #FE5A5F 2px solid;
 }
 #sitename {
-    background-color: #4aaaa5;
+    background-color: #007A87;
     display:inline-block;
     font-size: 25px;
     padding: 30px;
@@ -63,7 +63,6 @@ body {
     margin: 0px;
     padding: 35px 0px 34px 0px;
     color: #d5d5d5;
-    
 }
 #nav a {
     color: #888888;
@@ -78,7 +77,7 @@ body {
     background-color:#ffffff;
     padding: 25px;
     overflow: auto;
-    border: #dddddd 1px solid;
+    border: #007A87 1px solid;
 }
 #content img.headshot {
     float: left;
@@ -93,7 +92,7 @@ h1 {
     margin-top: 0px;
     padding-bottom: 20px;
     border-bottom:#CCCCCC 3px solid;
-    color: #4aaaa5;
+    color: #007A87;
 }
 
 /* ====== FOOTER-WRAPPER > PAGE CONTENT > FORM ====== */
@@ -126,7 +125,7 @@ input[type=submit]{
 .project-tile {
     width: 380px;
     height: 280px;
-    background-color: #123456;
+    background-color: #FE5A5F;
     margin: 0px 20px 20px 0px;
     float: left;
     position: relative;
@@ -134,7 +133,7 @@ input[type=submit]{
 }
 #content .project-tile p {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #4aaaa5;
+    background-color: #FE5A5F;
     color: #ffffff;
     position: absolute;
     bottom: 10px;
